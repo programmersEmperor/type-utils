@@ -1,10 +1,11 @@
 {
-  "name": "type-utils",
+  "name": "@mutasimalmu/type-utils",
   "version": "0.0.0",
   "description": "Easy TypeScript-only utilities for faster types developers",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist", 
+    "README.md"
   ],
   "main": "index.js",
   "scripts": {
@@ -23,5 +24,8 @@
     "semantic-release": "^25.0.0",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
+  }, 
+  "publishConfig" : {
+    "access": "public"
   }
 }
