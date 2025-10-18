@@ -7,11 +7,6 @@ on:
       - develop
 
 
-permissions:
-  contents: write
-  issues: write
-  pull-request: write
-
 jobs: 
   release:
     runs-on: ubuntu-latest
