@@ -1,0 +1,16 @@
+name: release
+
+on:
+  push: 
+    branches: 
+      - master
+      - stage
+
+
+permissions:
+  contents: write
+  issues: write
+  pull-request: write
+
+jobs: 
+  release:
